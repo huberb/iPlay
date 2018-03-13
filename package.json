@@ -1,0 +1,16 @@
+{
+  "name": "youtube-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-osx": "electron-packager . iPlay --platform=darwin --arch=x64"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.0.0",
+    "electron": "^1.8.3"
+  }
+}
